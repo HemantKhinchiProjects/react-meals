@@ -1,10 +1,10 @@
-import React from "react";
-import "./style.css";
-
+import React from 'react';
+import './style.css';
+import Header from './components/Layout/Header';
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <Header />
       <p>Start editing to see some magic happen :)</p>
     </div>
   );
